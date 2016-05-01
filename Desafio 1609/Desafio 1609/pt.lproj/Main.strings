@@ -1,0 +1,18 @@
+
+/* Class = "IBUILabel"; text = "Usuario"; ObjectID = "Pf3-75-0ue"; */
+"Pf3-75-0ue.text" = "Usuario";
+
+/* Class = "IBUIBarButtonItem"; title = "Upload"; ObjectID = "ZUA-oh-mfg"; */
+"ZUA-oh-mfg.title" = "Upload";
+
+/* Class = "IBUILabel"; text = "Label"; ObjectID = "exA-iE-the"; */
+"exA-iE-the.text" = "Label";
+
+/* Class = "IBUIButton"; normalTitle = "Entrar"; ObjectID = "geU-JD-GeB"; */
+"geU-JD-GeB.normalTitle" = "Entrar";
+
+/* Class = "IBUILabel"; text = "Login"; ObjectID = "oiz-WQ-9pI"; */
+"oiz-WQ-9pI.text" = "Login";
+
+/* Class = "IBUILabel"; text = "Senha"; ObjectID = "tL6-C0-uEb"; */
+"tL6-C0-uEb.text" = "Senha";

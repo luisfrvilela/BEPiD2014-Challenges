@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		12CC05AF19101D0A004BC20A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CC05AE19101D0A004BC20A /* Cocoa.framework */; };
+		12CC05B919101D0A004BC20A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12CC05B719101D0A004BC20A /* InfoPlist.strings */; };
+		12CC05BB19101D0A004BC20A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC05BA19101D0A004BC20A /* main.m */; };
+		12CC05BF19101D0A004BC20A /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 12CC05BD19101D0A004BC20A /* Credits.rtf */; };
+		12CC05C219101D0A004BC20A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC05C119101D0A004BC20A /* AppDelegate.m */; };
+		12CC05C519101D0A004BC20A /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 12CC05C319101D0A004BC20A /* MainMenu.xib */; };
+		12CC05CD19101D0B004BC20A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CC05CC19101D0B004BC20A /* SenTestingKit.framework */; };
+		12CC05CE19101D0B004BC20A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12CC05AE19101D0A004BC20A /* Cocoa.framework */; };
+		12CC05D619101D0B004BC20A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12CC05D419101D0B004BC20A /* InfoPlist.strings */; };
+		12CC05D919101D0B004BC20A /* Desafio1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 12CC05D819101D0B004BC20A /* Desafio1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12CC05CF19101D0B004BC20A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 12CC05A319101D0A004BC20A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 12CC05AA19101D0A004BC20A;
+			remoteInfo = Desafio1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12CC05AB19101D0A004BC20A /* Desafio1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Desafio1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CC05AE19101D0A004BC20A /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		12CC05B119101D0A004BC20A /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		12CC05B219101D0A004BC20A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		12CC05B319101D0A004BC20A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12CC05B619101D0A004BC20A /* Desafio1-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desafio1-Info.plist"; sourceTree = "<group>"; };
+		12CC05B819101D0A004BC20A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12CC05BA19101D0A004BC20A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12CC05BC19101D0A004BC20A /* Desafio1-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Desafio1-Prefix.pch"; sourceTree = "<group>"; };
+		12CC05BE19101D0A004BC20A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		12CC05C019101D0A004BC20A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		12CC05C119101D0A004BC20A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		12CC05C419101D0A004BC20A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		12CC05CB19101D0B004BC20A /* Desafio1Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Desafio1Tests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		12CC05CC19101D0B004BC20A /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		12CC05D319101D0B004BC20A /* Desafio1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Desafio1Tests-Info.plist"; sourceTree = "<group>"; };
+		12CC05D519101D0B004BC20A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12CC05D719101D0B004BC20A /* Desafio1Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Desafio1Tests.h; sourceTree = "<group>"; };
+		12CC05D819101D0B004BC20A /* Desafio1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Desafio1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12CC05A819101D0A004BC20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CC05AF19101D0A004BC20A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CC05C719101D0B004BC20A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CC05CD19101D0B004BC20A /* SenTestingKit.framework in Frameworks */,
+				12CC05CE19101D0B004BC20A /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12CC05A219101D0A004BC20A = {
+			isa = PBXGroup;
+			children = (
+				12CC05B419101D0A004BC20A /* Desafio1 */,
+				12CC05D119101D0B004BC20A /* Desafio1Tests */,
+				12CC05AD19101D0A004BC20A /* Frameworks */,
+				12CC05AC19101D0A004BC20A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12CC05AC19101D0A004BC20A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12CC05AB19101D0A004BC20A /* Desafio1.app */,
+				12CC05CB19101D0B004BC20A /* Desafio1Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12CC05AD19101D0A004BC20A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12CC05AE19101D0A004BC20A /* Cocoa.framework */,
+				12CC05CC19101D0B004BC20A /* SenTestingKit.framework */,
+				12CC05B019101D0A004BC20A /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12CC05B019101D0A004BC20A /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12CC05B119101D0A004BC20A /* AppKit.framework */,
+				12CC05B219101D0A004BC20A /* CoreData.framework */,
+				12CC05B319101D0A004BC20A /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		12CC05B419101D0A004BC20A /* Desafio1 */ = {
+			isa = PBXGroup;
+			children = (
+				12CC05C019101D0A004BC20A /* AppDelegate.h */,
+				12CC05C119101D0A004BC20A /* AppDelegate.m */,
+				12CC05C319101D0A004BC20A /* MainMenu.xib */,
+				12CC05B519101D0A004BC20A /* Supporting Files */,
+			);
+			path = Desafio1;
+			sourceTree = "<group>";
+		};
+		12CC05B519101D0A004BC20A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12CC05B619101D0A004BC20A /* Desafio1-Info.plist */,
+				12CC05B719101D0A004BC20A /* InfoPlist.strings */,
+				12CC05BA19101D0A004BC20A /* main.m */,
+				12CC05BC19101D0A004BC20A /* Desafio1-Prefix.pch */,
+				12CC05BD19101D0A004BC20A /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12CC05D119101D0B004BC20A /* Desafio1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				12CC05D719101D0B004BC20A /* Desafio1Tests.h */,
+				12CC05D819101D0B004BC20A /* Desafio1Tests.m */,
+				12CC05D219101D0B004BC20A /* Supporting Files */,
+			);
+			path = Desafio1Tests;
+			sourceTree = "<group>";
+		};
+		12CC05D219101D0B004BC20A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12CC05D319101D0B004BC20A /* Desafio1Tests-Info.plist */,
+				12CC05D419101D0B004BC20A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12CC05AA19101D0A004BC20A /* Desafio1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CC05DC19101D0B004BC20A /* Build configuration list for PBXNativeTarget "Desafio1" */;
+			buildPhases = (
+				12CC05A719101D0A004BC20A /* Sources */,
+				12CC05A819101D0A004BC20A /* Frameworks */,
+				12CC05A919101D0A004BC20A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Desafio1;
+			productName = Desafio1;
+			productReference = 12CC05AB19101D0A004BC20A /* Desafio1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		12CC05CA19101D0B004BC20A /* Desafio1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12CC05DF19101D0B004BC20A /* Build configuration list for PBXNativeTarget "Desafio1Tests" */;
+			buildPhases = (
+				12CC05C619101D0B004BC20A /* Sources */,
+				12CC05C719101D0B004BC20A /* Frameworks */,
+				12CC05C819101D0B004BC20A /* Resources */,
+				12CC05C919101D0B004BC20A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				12CC05D019101D0B004BC20A /* PBXTargetDependency */,
+			);
+			name = Desafio1Tests;
+			productName = Desafio1Tests;
+			productReference = 12CC05CB19101D0B004BC20A /* Desafio1Tests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12CC05A319101D0A004BC20A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = BEPiD;
+			};
+			buildConfigurationList = 12CC05A619101D0A004BC20A /* Build configuration list for PBXProject "Desafio1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12CC05A219101D0A004BC20A;
+			productRefGroup = 12CC05AC19101D0A004BC20A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12CC05AA19101D0A004BC20A /* Desafio1 */,
+				12CC05CA19101D0B004BC20A /* Desafio1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12CC05A919101D0A004BC20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CC05B919101D0A004BC20A /* InfoPlist.strings in Resources */,
+				12CC05BF19101D0A004BC20A /* Credits.rtf in Resources */,
+				12CC05C519101D0A004BC20A /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CC05C819101D0B004BC20A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CC05D619101D0B004BC20A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		12CC05C919101D0B004BC20A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12CC05A719101D0A004BC20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CC05BB19101D0A004BC20A /* main.m in Sources */,
+				12CC05C219101D0A004BC20A /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12CC05C619101D0B004BC20A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12CC05D919101D0B004BC20A /* Desafio1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		12CC05D019101D0B004BC20A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 12CC05AA19101D0A004BC20A /* Desafio1 */;
+			targetProxy = 12CC05CF19101D0B004BC20A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		12CC05B719101D0A004BC20A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CC05B819101D0A004BC20A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		12CC05BD19101D0A004BC20A /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CC05BE19101D0A004BC20A /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		12CC05C319101D0A004BC20A /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CC05C419101D0A004BC20A /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		12CC05D419101D0B004BC20A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12CC05D519101D0B004BC20A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12CC05DA19101D0B004BC20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		12CC05DB19101D0B004BC20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		12CC05DD19101D0B004BC20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio1/Desafio1-Prefix.pch";
+				INFOPLIST_FILE = "Desafio1/Desafio1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12CC05DE19101D0B004BC20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio1/Desafio1-Prefix.pch";
+				INFOPLIST_FILE = "Desafio1/Desafio1-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		12CC05E019101D0B004BC20A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Desafio1.app/Contents/MacOS/Desafio1";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio1/Desafio1-Prefix.pch";
+				INFOPLIST_FILE = "Desafio1Tests/Desafio1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		12CC05E119101D0B004BC20A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Desafio1.app/Contents/MacOS/Desafio1";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Desafio1/Desafio1-Prefix.pch";
+				INFOPLIST_FILE = "Desafio1Tests/Desafio1Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12CC05A619101D0A004BC20A /* Build configuration list for PBXProject "Desafio1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CC05DA19101D0B004BC20A /* Debug */,
+				12CC05DB19101D0B004BC20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12CC05DC19101D0B004BC20A /* Build configuration list for PBXNativeTarget "Desafio1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CC05DD19101D0B004BC20A /* Debug */,
+				12CC05DE19101D0B004BC20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12CC05DF19101D0B004BC20A /* Build configuration list for PBXNativeTarget "Desafio1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12CC05E019101D0B004BC20A /* Debug */,
+				12CC05E119101D0B004BC20A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12CC05A319101D0A004BC20A /* Project object */;
+}

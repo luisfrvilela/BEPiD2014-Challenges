@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'Desafio020605' target in the 'Desafio020605' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
